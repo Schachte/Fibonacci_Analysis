@@ -1,7 +1,7 @@
 # Fibonacci_Analysis
 Different methods of computing the fibonacci sequence using recursion, dynamic programming and matricies. 
 
-<center>![](http://i.imgur.com/Dxf21sS.jpg | width=300 height=343)</center>
+<center>![](http://i.imgur.com/oLxZdvY.png | width=300 height=343)</center>
 
 - **Method 1**: Basic recursive call. Not efficient because it re-computes already computed values in the recursion tree. `Exponential time complexity`.
 - **Method 2**: Dynamic programming approach #1. Efficient in the sense of time because we use a table to compute future values. `O(N) time complexity`.
