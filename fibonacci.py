@@ -9,10 +9,9 @@ import time
 def dynApprTimeSpace(seqNum):
     '''O(N) Method, fast and takes minimal space'''
     seqNum = int(seqNum)
-    fibArray = [0] * seqNum
     a = 1
     b = 1
-    for x in range(2, len(fibArray)):
+    for x in range(2, seqNum):
         c = a + b
         a = b
         b = c
